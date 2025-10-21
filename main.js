@@ -50,7 +50,8 @@ let fengshuiList = [
   "Let your dreams drift, for the tide will carry them home.",
   "The stars do not rush to shine; neither should you.",
   "The quiet heart holds the loudest truth.",
-  "In surrender, you become unshakable."
+  "In surrender, you become unshakable.",
+  "My spirit lead me to my feet could never wander."
 ]
 
 let cometYap = [
@@ -164,6 +165,16 @@ let cometSuggest = [
   "COMET--OFFLINE"
 ]
 
-let msg1 = fengshuiList.at(int(Math.random() * fengshuiList.length))
-let msg2 = cometYap.at(int(Math.random() * cometYap.length))
-let msg3 =  cometSuggest.at(int(Math.random() * cometSuggest.length))
+let msg1 = fengshuiList.at(Math.floor(Math.random() * fengshuiList.length));
+let msg2 = cometYap.at(Math.floor(Math.random() * cometYap.length));
+let msg3 =  cometSuggest.at(Math.floor(Math.random() * cometSuggest.length));
+
+console.log("WISDOM OF THE DAY:");
+console.log("-------------------");
+console.log(msg1);
+console.log();
+console.log("COMET--ONLINE");
+console.log(msg2);
+console.log();
+console.log(msg3);
+console.log("-------------------");
