@@ -169,8 +169,8 @@ let msg1 = fengshuiList.at(Math.floor(Math.random() * fengshuiList.length));
 let msg2 = cometYap.at(Math.floor(Math.random() * cometYap.length));
 let msg3 =  cometSuggest.at(Math.floor(Math.random() * cometSuggest.length));
 
-console.log("WISDOM OF THE DAY:");
 console.log("-------------------");
+console.log("WISDOM OF THE DAY:");
 console.log(msg1);
 console.log();
 console.log("COMET--ONLINE");
